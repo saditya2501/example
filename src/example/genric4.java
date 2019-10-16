@@ -1,10 +1,10 @@
-//genric if we use numreic value then it gave erron
+//
 
 package example;
 import java.util.*;
 import java.lang.*;
 
-public class generic3 {
+public class genric4 {
     void fun1()
     {
         List <Integer>ls=new ArrayList<Integer>();
@@ -16,13 +16,13 @@ public class generic3 {
 
         System.out.println(ls);
         System.out.println("no of items:"+ls.size());
-        Collections.sort(ls);
+        Collections.sort(ls,Collections.reverseOrder());
         System.out.println(ls);
 
 
     }
     public static void main(String args[]){
-        generic3 a=new generic3();
+        genric4 a=new genric4();
         a.fun1();
     }
 }
