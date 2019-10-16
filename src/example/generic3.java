@@ -12,7 +12,7 @@ public class generic3 {
         ls.add(45);
         ls.add(65);
 
-
+//a
 
         System.out.println(ls);
         System.out.println("no of items:"+ls.size());
